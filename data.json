@@ -1,0 +1,16 @@
+{
+  "timetable":[
+    {
+      "worker":1,
+      "jobs":["A","B","C"]
+    },
+    {
+      "worker":2,
+      "jobs":["D","E","F"]
+    },
+    {
+      "worker":3,
+      "jobs":["G","H","I"]
+    }
+  ]
+}

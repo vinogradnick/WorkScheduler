@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section>
+    <label for="count_works">Количество работ</label>
+    <input type="number" id="count_works" placeholder="Количество работ" min="0" max="27">
+    <br>
+    <label for="count_workers">Количество работников</label>
+
+    <input type="number" id="count_workers" placeholder="Количество работников" min="0" max="10">
+    <button type="submit" id="submit-btn">Подтвердить</button>
+    <div class="flex" id="input-list">
+    </div>
+</section>
+<section class="table-result">
+    <table id="result-table" class="table">
+        <tr>
+            <th rowspan="2" class="first">Работники</th>
+            <th colspan="100">Работы</th>
+
+        </tr>
+        <tr id="done_works">
+
+        </tr>
+
+
+
+
+
+
+
+    </table>
+</section>
+<script src="dist/bundle.tree.js"></script>
+</body>
+</html>
